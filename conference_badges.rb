@@ -10,6 +10,7 @@ def batch_badge_creator(attendees)
   "Hello, my name is #{badges}."  
 end
 end
+
 def assign_rooms(names)
 
    names.each_with_index.map do|name,index|
@@ -29,3 +30,13 @@ def printer(attendees)
   end
 end
  #badges_and_room_assignments.each_line do |line|
+
+def assign_rooms(badges)
+
+   room_assignments.map do|room_assignments|
+   "#{room_assignments}"
+ 
+end
+end
+ def printer(attendees)
+ end
