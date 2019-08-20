@@ -6,8 +6,13 @@
  
 def batch_badge_creator(attendees)
   
-   attendees.map do|badges|
-  "Hello, my name is #{badges}."  
+  # attendees.map do|badges|
+  # "Hello, my name is #{badges}."  
+  
+  def batch_badge_creator(speaker_names)
+   speaker_names.collect {|name| badge_maker(name)}
+ end
+
 end
 end
 
